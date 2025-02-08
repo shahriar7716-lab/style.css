@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&display=swap');
+
+
+
+
+
+
+body {
+    font-family: Hind, siliguri;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+
+
+}
+header {
+    background-color: #191919;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
+img.profile-image {
+    padding-left: 850px;
+    
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #000000;
+}
+section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+footer a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Hind Siliguri';
+}
+
+footer :hover {
+    
+    text-decoration: underline;
+    
+}
+
+.back-to-top {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+
+p {
+    font-family: Hind Siliguri;
+    
+}
+
+h2 {
+    font-family: 'Hind Siliguri';
+}
+
+li {
+    margin-top: 50px;
+    font-family: 'Hind Siliguri';
+}
+
+h1 {
+    font-family: 'Hind Siliguri';
+}
+
+
+img {
+    width: 500px;
+}
+
+
+/* চ্যাট বাটন */
+#chat-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #202020;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    font-family: 'Hind Siliguri';
+}
+
+/* চ্যাট বক্স */
+#chat-box {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* চ্যাট হেডার */
+.chat-header {
+    background: #202020;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ক্লোজ বাটন */
+#close-chat {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* চ্যাট বডি */
+.chat-body {
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/* মেসেজ ডিজাইন */
+.chat-message {
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 5px;
+    max-width: 80%;
+}
+
+.user-message {
+    background: #202020;
+    color: white;
+    align-self: flex-end;
+    text-align: right;
+}
+
+.admin-message {
+    background: #ddd;
+    color: black;
+    align-self: flex-start;
+    text-align: left;
+}
+
+/* চ্যাট ফুটার */
+.chat-footer {
+    display: flex;
+    padding: 10px;
+    background: white;
+    border-top: 1px solid #ddd;
+}
+
+#chat-input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#send-msg {
+    background: #202020;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    color: #333;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 865px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.faq-container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.faq {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.faq-question {
+    font-size: 18px;
+    color: #333;
+}
+
+.faq-answer {
+    font-size: 16px;
+    color: #555;
+}
+
+
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+/* Button Style */
+.btn {
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 1190px;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 35px;
+    width: 350px;
+    border-radius: 8px;
+    text-align: left;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-btn {
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 0px;
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.social-login button {
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.google { background: #db4437; color: white; }
+.facebook { background: #4267B2; color: white; }
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+/* Button Style */
+.btn {
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+
+
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 25px;
+    width: 350px;
+    border-radius: 8px;
+    text-align: left;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-btn {
+    width: 100%;
+    background-color: #ff7300;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.social-login button {
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.google { background: #db4437; color: white; }
+.facebook { background: #4267B2; color: white; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
